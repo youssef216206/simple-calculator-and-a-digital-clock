@@ -1,1 +1,6 @@
-dc3a475f-90d7-461f-8612-6775b96391df.png
+calculator-with-clock/
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    └── screenshot.png
