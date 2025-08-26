@@ -1,11 +1,13 @@
-function updateClock(){
+function updateClock() {
     let time = new Date();
 
     // Format time
-    let hour = String(time.getHours()-12).padStart(2,'0');
-    let min = String(time.getMinutes()).padStart(2,'0');
-    let sec = String(time.getSeconds()).padStart(2,'0');
-    document.getElementById('time').textContent = `${hour}:${min}:${sec}`;
+    let hour = time.getHours();
+    let period = hour >= 12 ? 'PM' : 'AM'; 
+    hour    = String(hour % 12  || 12 ).padStart(2, '0');
+    let min = String(time.getMinutes()).padStart(2, '0');
+    let sec = String(time.getSeconds()).padStart(2, '0');
+    document.getElementById('time').textContent = `${hour}:${min}:${sec} ${period}`; 
 
     // Format date
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
