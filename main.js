@@ -14,6 +14,11 @@ function clearDisplay() {
     isResultDisplayed = false;
 }
 
+function deleteLastDigit() {
+    display.value = display.value.slice(0, -1);
+    isResultDisplayed = false;
+}
+
 function calculate() {
     display.value = eval(display.value);
     isResultDisplayed = true;
