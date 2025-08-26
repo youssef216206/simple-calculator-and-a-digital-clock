@@ -1,135 +1,135 @@
 # ⏰ Calculator with Clock
 
-A **web-based application** that combines a **simple calculator** and a **digital clock**, built using **HTML, CSS, and JavaScript**. The project is designed with a **dark modern theme** and **right-to-left (RTL) support** for Arabic users, ensuring both **functionality** and **visual appeal**.
+A **web-based application** that combines a **simple calculator** and a **digital clock**—crafted with **HTML, CSS, and JavaScript**. Designed with a **modern dark theme** and **RTL support** for Arabic users, it offers both **functionality** and **visual appeal**.
 
 ---
 
-## ✨ Features
+## 🖼️ Visual Preview
 
-- 🕒 **Digital Clock**  
-  Displays the current **time (12-hour format)** and **date**, updated every second.
-
-- ➗ **Basic Calculator**  
-  Supports **addition (+), subtraction (-), multiplication (×), division (/),** and **decimal point (.)**.
-
-- 🔄 **Auto-Clear After Result**  
-  The display resets automatically when entering a new value after showing a result.
-
-- 🧹 **Reset Functionality**  
-  A **C (clear)** button to manually clear the calculator display.
-
-- 🌍 **Arabic Support**  
-  Full **RTL layout** for Arabic-speaking users.
-
-- 🌑 **Dark Theme**  
-  Modern dark background (`#595c66`) for an elegant user experience.
+<div align="center">
+  <img src="assets/dc3a475f-90d7-461f-8612-6775b96391df.png" alt="Calculator with Clock Screenshot" width="600"/>
+  <br>
+  <b>Modern dark theme interface showing digital clock and calculator</b>
+</div>
 
 ---
 
-## 📸 Screenshot
+## ✨ Features Overview
 
-> ⚠️ *Replace the placeholder below with an actual screenshot of the app for a professional presentation.*
-
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Calculator+with+Clock)
+<table>
+  <tr>
+    <td align="center"><img src="https://img.icons8.com/ios-filled/50/ffffff/clock--v1.png"/><br><b>Digital Clock</b></td>
+    <td align="center"><img src="https://img.icons8.com/ios-filled/50/ffffff/calculator.png"/><br><b>Basic Calculator</b></td>
+    <td align="center"><img src="https://img.icons8.com/ios-filled/50/ffffff/clear-symbol.png"/><br><b>Reset Functionality</b></td>
+  </tr>
+</table>
 
 ---
 
-## 🚀 Installation
+## 🕹️ Interactive Demo (Coming Soon)
 
-To run the project locally:
+> ⚡ *A live demo link will be added here soon!*
+
+---
+
+## 🚀 Quick Start
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/your-repository.git
 
-# Navigate to the project folder
+# Go to project directory
 cd your-repository
 ```
 
-Open the project:
-- **Option 1:** Open `index.html` directly in a web browser (e.g., Chrome, Firefox).
-- **Option 2:** Use a local server (e.g., Live Server in VS Code) for a smoother experience.
+- **Open `index.html` in your browser**  
+  OR  
+- **Use a local server (ex: Live Server in VS Code)** for best results.
 
 ---
 
 ## 📂 Project Structure
 
-```
+```plaintext
 calculator-with-clock/
-├── index.html       # Main HTML file for the calculator and clock interface
-├── styles.css       # CSS file for styling the interface
-└── script.js        # JavaScript file for calculator and clock functionality
+├── index.html       # Main interface
+├── styles.css       # Modern dark & RTL styles
+├── script.js        # Calculator + clock logic
+└── assets/          # Folder for screenshots/images
 ```
 
 ---
 
-## 🖥️ Usage
+## ⚡ How it Works
 
-1. **Clock**  
-   - Displays current time (12-hour format) and date.  
-   - Updates every second.
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/clock.png" width="48"/> <b>Clock</b>
+</div>
 
-2. **Calculator**  
-   - `0-9` → Input digits.  
-   - `+ - × /` → Perform operations.  
-   - `.` → Add decimals.  
-   - `=` → Show result.  
-   - `C` → Clear display.  
+- Shows current time (**12-hour format**) and **date**
+- Updates every second
 
-   After showing a result, entering a new number automatically clears the old one.
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/calculator.png" width="48"/> <b>Calculator</b>
+</div>
+
+- `0-9` : Enter numbers
+- `+ - × /` : Arithmetic operations
+- `.` : Decimal point
+- `=` : Calculate result
+- `C` : Clear display
+
+_New entry after result auto-clears old result._
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **HTML5** → Structuring interface
-- **CSS3** → Styling with **Flexbox & Grid**
-- **JavaScript (ES6)** → Calculator logic & real-time clock
+| HTML5 | CSS3 (Flexbox & Grid) | JavaScript (ES6) |
+|:-----:|:---------------------:|:---------------:|
+| <img src="https://img.icons8.com/color/48/html-5--v1.png"/> | <img src="https://img.icons8.com/color/48/css3.png"/> | <img src="https://img.icons8.com/color/48/javascript--v1.png"/> |
 
 ---
 
 ## 📌 Developer Notes
 
-- ⚠️ The calculator uses JavaScript’s **`eval()`** for computations → avoid using in production with untrusted inputs.
-- ❌ Invalid operations (e.g., division by zero) may display **Infinity** or **NaN**.
-- ⏳ The clock uses **`setInterval()`** for real-time updates.
-- 📱 The design is **responsive**, supports **dark mode** and **RTL layout**.
+- Uses JavaScript’s **`eval()`** for calculation (not recommended for untrusted input).
+- Handles invalid operations (e.g., division by zero shows **Infinity**/**NaN**).
+- **Responsive design:** Mobile & desktop, dark mode, Arabic RTL support.
 
 ---
 
-## 🤝 Contributing
+## 🤝 How to Contribute
 
-Contributions are welcome!
-
-1. Fork the repository.
-2. Create a new branch:
+1. **Fork** the repo
+2. **Create a branch**
    ```bash
    git checkout -b feature/your-feature
    ```
-3. Commit your changes:
+3. **Commit & push**
    ```bash
    git commit -m "Add your feature"
-   ```
-4. Push to the branch:
-   ```bash
    git push origin feature/your-feature
    ```
-5. Open a **Pull Request**.
+4. **Open a Pull Request**
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+MIT License. See [LICENSE](LICENSE).
 
 ---
 
 ## 📧 Contact
 
-For questions or feedback, feel free to:
+Questions or feedback?
 - Open an issue on GitHub
-- Contact via email: **ym65117@gmail.com**
+- Email: **your-email@example.com**
 
 ---
 
-🚀 *Enjoy using Calculator with Clock!*
+<div align="center">
+  <img src="https://img.icons8.com/color/96/clock--v1.png"/><br>
+  <b>Enjoy using Calculator with Clock!</b>
+</div>
