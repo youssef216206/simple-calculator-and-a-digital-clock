@@ -1,0 +1,21 @@
+.clock{
+    background: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    min-width: 250px;
+    border-radius: 15px;
+}
+
+#time {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 18px;
+    color: #666;
+}
+
